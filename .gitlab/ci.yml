@@ -22,7 +22,7 @@ variables:
         - cd .gitlab
         - chmod +x build-deps.sh build-codecompass.sh
         - ./build-deps.sh
-        - ./build-codecompass.sh
+        #- ./build-codecompass.sh
         - cd $BUILD_DIR
         - cp $CI_PROJECT_DIR/.gitlab/cc-env.sh .
         - cp $CI_PROJECT_DIR/.gitlab/README.md .
