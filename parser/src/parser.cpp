@@ -22,6 +22,8 @@
 #include <parser/pluginhandler.h>
 #include <parser/sourcemanager.h>
 
+#proba
+
 namespace po = boost::program_options;
 namespace fs = boost::filesystem;
 namespace trivial = boost::log::trivial;
